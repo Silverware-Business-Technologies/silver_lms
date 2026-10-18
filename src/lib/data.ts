@@ -156,6 +156,24 @@ export const academy = {
       href: "#courses",
     },
   ] satisfies Category[],
+  categoriesSection: {
+    eyebrow: "PRACTICE DOMAINS",
+    title: "Technology Categories",
+    description:
+      "Structured engineering pathways engineered for physical execution, enterprise validation, and deployment in demanding operational environments.",
+    tracksLabel: "TRACKS",
+  },
+  coursesSection: {
+    eyebrow: "ENGINEERING CERTIFICATION",
+    title: "Mission-Ready Syllabus",
+    exploreLabel: "Explore all courses",
+    reviewsLabel: "reviews",
+    modulesLabel: "Modules",
+    lessonsLabel: "Lessons",
+    certificateLabel: "Includes Verified Certificate",
+    tuitionLabel: "TUITION FEE",
+    enrollLabel: "Enroll Now",
+  },
   courses: [
     {
       code: "SEC-BIO-101",
@@ -234,6 +252,12 @@ export const academy = {
       complete: true,
     },
   ] satisfies AcademyStep[],
+  howItWorksSection: {
+    eyebrow: "CURRICULUM ARCHITECTURE",
+    title: "How Silverware Academy Works",
+    description:
+      "A proven, progressive methodology engineered to bridge theoretical engineering and production-grade field execution.",
+  },
   // TODO: Replace placeholder instructor bios with confirmed faculty profiles.
   instructors: [
     {
@@ -255,6 +279,12 @@ export const academy = {
       initials: "TA",
     },
   ] satisfies Instructor[],
+  instructorsSection: {
+    eyebrow: "FACULTY & LEADERSHIP",
+    title: "Instructor Spotlight",
+    description:
+      "Courses developed and led by active deployment engineers who design and maintain enterprise installations across Africa.",
+  },
   cta: {
     eyebrow: "ADMISSIONS OPEN FOR NEXT COHORT",
     title: "Ready to build practical technology skills?",
