@@ -62,6 +62,14 @@ export type FooterColumn = {
 
 export const academy = {
   name: "Silverware Academy",
+  navigation: [
+    { label: "Courses", href: "#courses" },
+    { label: "Categories", href: "#categories" },
+    { label: "How it works", href: "#how-it-works" },
+    { label: "Instructors", href: "#instructors" },
+  ],
+  loginLabel: "Log in",
+  getStartedLabel: "Get Started",
   description:
     "The premier technical engineering and certification institution for enterprise hardware, digital surveillance, and renewable energy in West Africa.",
   hero: {
